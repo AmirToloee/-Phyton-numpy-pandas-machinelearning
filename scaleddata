@@ -1,3 +1,4 @@
+#نحوه مقایسه دو ستون در پایتون که قابل مقایسه نیستند با استفاده از ویژگی اندازه
 #help w3 site
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
