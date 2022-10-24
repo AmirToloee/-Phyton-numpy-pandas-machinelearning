@@ -1,0 +1,11 @@
+#help w3 site
+import pandas as pd
+from sklearn.preprocessing import StandardScaler
+from sklearn import linear_model
+#your data open
+df=pd.read_csv('data2.csv')
+#i want to scaled 2 clo of data
+x=df[['Weight','Volume']]
+scale=StandardScaler()
+scaledx=scale.fit_transform(x)
+print(scaledx)
